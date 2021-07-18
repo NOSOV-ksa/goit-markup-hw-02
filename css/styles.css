@@ -1,0 +1,48 @@
+:root {
+    --primary-text-color: #212121;
+    --secondr-text-color: #2196F3;
+    --title-text-color: #757575;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.logo {
+    font-family: Raleway, sans-serif;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+.logo .web {
+    color: #2196F3;
+}
+.st {
+    color: var(--primary-text-color);
+}
+.link {
+    color: var(--primary-text-color);
+}
+.content {
+    color: var(--title-text-color);
+}
+.btn:hover {
+    background-color: var(--secondr-text-color);
+    color: #fff;
+}
+
+.main {
+    color: var(--primary-text-color);
+}
+.autor {
+    color: var(--primary-text-color);
+}
+.meta {
+    color: var(--title-text-color);
+}
+
+.features {
+   background-color: var(--secondr-text-color);
+   color: #fff; 
+}
