@@ -6,7 +6,9 @@
     --section-color: #2F303A;
     --select-button-color: #F5F4FA;
     }
-
+body {
+    font-family: Roboto, sans-serif;
+}
 /* Хедр */
 header {
     background-color: #FFFFFF;
@@ -27,93 +29,36 @@ header .second {
     color: var(--primary-text-color);
 }
 /* Хедр-навигация */
-header .link {
+.jump {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-header .link:hover {
-    color: var(--secondr-text-color);
-}
+
 /* Хедр-контакты */
-.contact {
+.contact .mail,
+.contact .tel {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.mail {
-    
-    fon
+.mail:hover, 
+.tel:hover,
+.jump:hover {
+    color: var(--secondr-text-color);
 }
-
-
-
-
 /* Курсор */
 .pointer {
     cursor: pointer;
 }
-
-
-.features {
-   background-color: var(--secondr-text-color);
-   color: #fff; 
-}
-
-.mail:hover, 
-.tel:hover {
-    color: var(--secondr-text-color);
-}
-
-
-
-
-a {
-    text-decoration: none;
-}
-body {
-    font-family: Roboto, sans-serif;
-    color: var(--primary-text-color);
-    background-color: var(--primary-background-color);
-}
-
-
-
-.feature {
+/* Футер */
+footer {
     background-color: var(--section-color);
 }
-ul {
-    list-style: none;
-}
-
-
-
-
-
-
-
-.content {
-    color: var(--title-text-color);
-}
-.solution {
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.select {
-    background-color: var(--select-button-color);
-}
-
-.select:hover {
-    background-color: var(--secondr-text-color);
-    color: #ffffff;
-}
-
-
-/* Футер */
 /* Футер логотип */
 footer .second {
     color: #FFFFFF;
@@ -140,64 +85,123 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255,255, 0.6);
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 
-/* .contacts {
-    color: rgba(255, 255,255, 0.6);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em; */
+
+/* Home page */
+.feature {
+    background-color: var(--section-color);
+    color: #ffffff;
 }
-.about > h3 {
-    line-height: 1.14;
+.features {
+    background-color: var(--secondr-text-color);
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
+    font-size: 16;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
-.content {
-    line-height: 1.71;
-}
-h1 {
+.solution {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-}
-h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.16;
-    letter-spacing: 00.03em;
-}
-h4 {
+/* о нас */
+.skills {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
-/*  font-family: Raleway, sans-serif;
-    font-style: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    font-weight: 400; */
+.content {
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.87;
+}
+/* наш продукт */
 
-
-
-
-.main {
-    color: var(--primary-text-color);
+/* Наша команда */
+/* Игорь */
+/* для будущего позиционирования */
+/* Ольга */
+/* для будущего позиционирования */
+/* Николай */
+/* для будущего позиционирования */
+/* Михаил */
+/* для будущего позиционирования */
+.community {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 .autor {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.16;
+    letter-spacing: 00.03em;
 }
 .meta {
     color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
-footer {
-    background-color: var(--section-color);
+/* Страница портфолио */
+.link {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.content {
+
+}
+/* Фильтр портфолио */
+.stile {
+    font-family: Roboto, sans-serif;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+.select {
+    font-family: Roboto, sans-serif;
+    background-color: var(--select-button-color);
+    text-transform:capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+.low {
+    text-transform: none;
+}
+.select:hover {
+    background-color: var(--secondr-text-color);
+    color: #ffffff;
 }
 
+/* Портфолио */
+.product {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
